@@ -1,7 +1,18 @@
 #include <iostream>
 #include <fstream>
+using namespace std;
+
+void readBalance()
+{
+    double bal;
+    ifstream fin;
+    fin.open("data.txt");
+
+
+    fin.close();
+}
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    readBalance();
     return 0;
 }
